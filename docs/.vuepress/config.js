@@ -2,6 +2,7 @@ module.exports = {
     title: '逸山轩',
     description: '逸风随性，山野青翠',
     theme: 'reco',
+    base: '/',
 
     locales: {
         '/': {
