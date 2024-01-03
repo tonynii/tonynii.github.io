@@ -13,6 +13,7 @@ jobs:
         persist-credentials: false
     - name: Install and Build
       run: |
+        export NODE_OPTIONS=--openssl-legacy-provider
         yarn install
         yarn docs:build
     - name: Deploy
